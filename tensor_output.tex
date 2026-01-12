@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=1in}
+\begin{document}
+\section*{Non-zero Christoffel Symbols}
+\begin{align*}
+\Gamma^{0}_{01} &= \frac{m}{r \left(c^{2} r - 2 m\right)} \\
+\Gamma^{0}_{10} &= \frac{m}{r \left(c^{2} Ar - 2 m\right)} \\
+\Gamma^{1}_{00} &= \frac{m \left(c^{2} r - 2 m\right)}{c^{2} r^{3}} \\
+\Gamma^{1}_{11} &= - \frac{m}{r \left(c^{2} r - 2 m\right)} \\
+\Gamma^{1}_{22} &= - r + \frac{2 m}{c^{2}} \\
+\Gamma^{1}_{33} &= \frac{\left(- c^{2} r + 2 m\right) \sin^{2}{\left(\theta \right)}}{c^{2}} \\
+\Gamma^{2}_{12} &= \frac{1}{r} \\
+\Gamma^{2}_{21} &= \frac{1}{r} \\
+\Gamma^{2}_{33} &= - \frac{\sin{\left(2 \theta \right)}}{2} \\
+\Gamma^{3}_{13} &= \frac{1}{r} \\
+\Gamma^{3}_{23} &= \frac{1}{\tan{\left(\theta \right)}} \\
+\Gamma^{3}_{31} &= \frac{1}{r} \\
+\Gamma^{3}_{32} &= \frac{1}{\tan{\left(\theta \right)}} \\
+\end{align*}
+\section*{Geodesic Equations}
+\begin{align*}
+\frac{d^2 t}{ds^2} &= - \frac{2 m v_{0} v_{1}}{r \left(c^{2} r - 2 m\right)} \\
+\frac{d^2 r}{ds^2} &= \frac{c^{2} m r^{2} v_{1}^{2} - m v_{0}^{2} \left(c^{2} r - 2 m\right)^{2} + r^{3} \left(v_{2}^{2} + v_{3}^{2} \sin^{2}{\left(\theta \right)}\right) \left(c^{2} r - 2 m\right)^{2}}{c^{2} r^{3} \left(c^{2} r - 2 m\right)} \\
+\frac{d^2 \theta}{ds^2} &= \frac{v_{3}^{2} \sin{\left(2 \theta \right)}}{2} - \frac{2 v_{1} v_{2}}{r} \\
+\frac{d^2 \phi}{ds^2} &= - \frac{2 v_{3} \left(\frac{r v_{2}}{\tan{\left(\theta \right)}} + v_{1}\right)}{r} \\
+\end{align*}
+\section*{Non-zero Ricci Tensor Components}
+\begin{align*}
+\end{align*}
+\section*{Ricci Scalar}
+\[ R = 0 \]
+\section*{Non-zero Riemann Tensor Components}
+\begin{align*}
+R^{0}_{101} &= \frac{2 m}{r^{2} \left(c^{2} r - 2 m\right)} \\
+R^{0}_{110} &= - \frac{2 m}{r^{2} \left(c^{2} r - 2 m\right)} \\
+R^{0}_{202} &= - \frac{m}{c^{2} r} \\
+R^{0}_{220} &= \frac{m}{c^{2} r} \\
+R^{0}_{303} &= - \frac{m \sin^{2}{\left(\theta \right)}}{c^{2} r} \\
+R^{0}_{330} &= \frac{m \sin^{2}{\left(\theta \right)}}{c^{2} r} \\
+R^{1}_{001} &= \frac{2 m \left(c^{2} r - 2 m\right)}{c^{2} r^{4}} \\
+R^{1}_{010} &= \frac{2 m \left(- c^{2} r + 2 m\right)}{c^{2} r^{4}} \\
+R^{1}_{212} &= - \frac{m}{c^{2} r} \\
+R^{1}_{221} &= \frac{m}{c^{2} r} \\
+R^{1}_{313} &= - \frac{m \sin^{2}{\left(\theta \right)}}{c^{2} r} \\
+R^{1}_{331} &= \frac{m \sin^{2}{\left(\theta \right)}}{c^{2} r} \\
+R^{2}_{002} &= \frac{m \left(- c^{2} r + 2 m\right)}{c^{2} r^{4}} \\
+R^{2}_{020} &= \frac{m \left(c^{2} r - 2 m\right)}{c^{2} r^{4}} \\
+R^{2}_{112} &= \frac{m}{r^{2} \left(c^{2} r - 2 m\right)} \\
+R^{2}_{121} &= - \frac{m}{r^{2} \left(c^{2} r - 2 m\right)} \\
+R^{2}_{323} &= \frac{2 m \sin^{2}{\left(\theta \right)}}{c^{2} r} \\
+R^{2}_{332} &= - \frac{2 m \sin^{2}{\left(\theta \right)}}{c^{2} r} \\
+R^{3}_{003} &= \frac{m \left(- c^{2} r + 2 m\right)}{c^{2} r^{4}} \\
+R^{3}_{030} &= \frac{m \left(c^{2} r - 2 m\right)}{c^{2} r^{4}} \\
+R^{3}_{113} &= \frac{m}{r^{2} \left(c^{2} r - 2 m\right)} \\
+R^{3}_{131} &= - \frac{m}{r^{2} \left(c^{2} r - 2 m\right)} \\
+R^{3}_{223} &= - \frac{2 m}{c^{2} r} \\
+R^{3}_{232} &= \frac{2 m}{c^{2} r} \\
+\end{align*}
+\end{document}
